@@ -5,7 +5,6 @@ end
 
 def batch_badge_creator(name)
   name1 = name.map { |person| "Hello, my name is #{person}." }
-  return name1
 end
 
 def assign_rooms(name)
@@ -14,7 +13,6 @@ def assign_rooms(name)
     room += 1
     "Hello, #{name}! You'll be assigned to room #{room}!"
   end
-  return name1
 end
 
 def printer(name)
